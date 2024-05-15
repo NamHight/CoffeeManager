@@ -40,30 +40,30 @@
             // 
             this.pnlPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlPassword.BackgroundImage")));
             this.pnlPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlPassword.Location = new System.Drawing.Point(40, 229);
+            this.pnlPassword.Location = new System.Drawing.Point(82, 272);
             this.pnlPassword.Name = "pnlPassword";
             this.pnlPassword.Size = new System.Drawing.Size(76, 62);
-            this.pnlPassword.TabIndex = 39;
+            this.pnlPassword.TabIndex = 44;
             // 
             // txtMatKhau
             // 
             this.txtMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtMatKhau.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatKhau.ForeColor = System.Drawing.Color.DarkSalmon;
-            this.txtMatKhau.Location = new System.Drawing.Point(131, 239);
+            this.txtMatKhau.Location = new System.Drawing.Point(173, 282);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '♥';
             this.txtMatKhau.Size = new System.Drawing.Size(316, 49);
-            this.txtMatKhau.TabIndex = 37;
+            this.txtMatKhau.TabIndex = 42;
             // 
             // pnlUsername
             // 
             this.pnlUsername.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlUsername.BackgroundImage")));
             this.pnlUsername.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlUsername.Location = new System.Drawing.Point(40, 119);
+            this.pnlUsername.Location = new System.Drawing.Point(82, 162);
             this.pnlUsername.Name = "pnlUsername";
             this.pnlUsername.Size = new System.Drawing.Size(76, 62);
-            this.pnlUsername.TabIndex = 38;
+            this.pnlUsername.TabIndex = 43;
             // 
             // txtTaiKhoan
             // 
@@ -71,10 +71,10 @@
             this.txtTaiKhoan.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTaiKhoan.Font = new System.Drawing.Font("Tahoma", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTaiKhoan.ForeColor = System.Drawing.Color.DarkSalmon;
-            this.txtTaiKhoan.Location = new System.Drawing.Point(131, 129);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(173, 172);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(316, 45);
-            this.txtTaiKhoan.TabIndex = 36;
+            this.txtTaiKhoan.TabIndex = 41;
             this.txtTaiKhoan.WordWrap = false;
             // 
             // btnLogIn
@@ -88,10 +88,10 @@
             this.btnLogIn.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold);
             this.btnLogIn.ForeColor = System.Drawing.SystemColors.Control;
             this.btnLogIn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnLogIn.Location = new System.Drawing.Point(122, 337);
+            this.btnLogIn.Location = new System.Drawing.Point(164, 380);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(263, 59);
-            this.btnLogIn.TabIndex = 40;
+            this.btnLogIn.TabIndex = 45;
             this.btnLogIn.Text = "Đăng nhập";
             this.btnLogIn.UseVisualStyleBackColor = false;
             // 
