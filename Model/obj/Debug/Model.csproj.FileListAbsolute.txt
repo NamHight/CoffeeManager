@@ -1,0 +1,12 @@
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\bin\Debug\Model.dll.config
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\bin\Debug\Model.dll
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\bin\Debug\Model.pdb
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\bin\Debug\EntityFramework.dll
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\bin\Debug\EntityFramework.xml
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\obj\Debug\Model.csproj.Up2Date
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\obj\Debug\Model.dll
+D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\Model\obj\Debug\Model.pdb
