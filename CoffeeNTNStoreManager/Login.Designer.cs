@@ -33,7 +33,7 @@
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.pnlUsername = new System.Windows.Forms.Panel();
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
-            this.btnLogIn = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // pnlPassword
@@ -77,23 +77,24 @@
             this.txtTaiKhoan.TabIndex = 36;
             this.txtTaiKhoan.WordWrap = false;
             // 
-            // btnLogIn
+            // btnLogin
             // 
-            this.btnLogIn.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnLogIn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
-            this.btnLogIn.FlatAppearance.BorderSize = 0;
-            this.btnLogIn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnLogIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogIn.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold);
-            this.btnLogIn.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLogIn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnLogIn.Location = new System.Drawing.Point(122, 337);
-            this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.Size = new System.Drawing.Size(263, 59);
-            this.btnLogIn.TabIndex = 40;
-            this.btnLogIn.Text = "Đăng nhập";
-            this.btnLogIn.UseVisualStyleBackColor = false;
+            this.btnLogin.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLogin.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold);
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnLogin.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnLogin.Location = new System.Drawing.Point(122, 337);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(263, 59);
+            this.btnLogin.TabIndex = 40;
+            this.btnLogin.Text = "Đăng Nhập";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Login
             // 
@@ -106,10 +107,11 @@
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.pnlUsername);
             this.Controls.Add(this.txtTaiKhoan);
-            this.Controls.Add(this.btnLogIn);
+            this.Controls.Add(this.btnLogin);
             this.DoubleBuffered = true;
             this.Name = "Login";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,7 +123,7 @@
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.Panel pnlUsername;
         private System.Windows.Forms.TextBox txtTaiKhoan;
-        private System.Windows.Forms.Button btnLogIn;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 

@@ -212,6 +212,7 @@
             this.btnExit.Size = new System.Drawing.Size(60, 49);
             this.btnExit.TabIndex = 109;
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // dgvNhanVien
             // 

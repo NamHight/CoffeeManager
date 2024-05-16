@@ -17,7 +17,6 @@ namespace Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public khachhang()
         {
-            this.bans = new HashSet<ban>();
             this.hoadons = new HashSet<hoadon>();
         }
     
@@ -30,8 +29,6 @@ namespace Model
         public string gioitinh { get; set; }
         public Nullable<int> tthai { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ban> bans { private get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<hoadon> hoadons { private get; set; }
     }

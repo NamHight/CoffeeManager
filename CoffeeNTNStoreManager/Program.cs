@@ -16,7 +16,7 @@ namespace CoffeeNTNStoreManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomeAdmin());
+            Application.Run(new Login());
         }
     }
 }

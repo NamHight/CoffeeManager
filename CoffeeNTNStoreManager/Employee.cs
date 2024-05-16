@@ -147,5 +147,16 @@ namespace CoffeeNTNStoreManager
                 hienThiDanhSachNhanVien(dgvNhanVien);
             }
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+           // sau khi tắt giao diện quản lý nhân viên thì quay trở về giao diện homeadmin
+            foreach (var form in Application.OpenForms.OfType<HomeAdmin>())
+            {
+                form.Show();
+                this.Close();
+                return;
+            }
+        }
     }
 }

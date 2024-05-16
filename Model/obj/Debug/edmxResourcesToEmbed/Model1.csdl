@@ -6,9 +6,8 @@
     </Key>
     <Property Name="maban" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="tenban" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="makh" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="tthai" Type="Int32" />
-    <NavigationProperty Name="khachhang" Relationship="Self.fk_ban_khachhang" FromRole="ban" ToRole="khachhang" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Name="controng" Type="Int32" />
   </EntityType>
   <EntityType Name="calamviec">
     <Key>
@@ -30,6 +29,7 @@
     <Property Name="tgianbd" Type="DateTime" Precision="3" />
     <Property Name="tgiankt" Type="DateTime" Precision="3" />
     <Property Name="ngaynghi" Type="Int32" />
+    <Property Name="tthai" Type="Int32" />
     <NavigationProperty Name="nhanvien" Relationship="Self.fk_chamcong_nhanvien" FromRole="chamcong" ToRole="nhanvien" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
   </EntityType>
   <EntityType Name="cthoadon">
@@ -64,7 +64,6 @@
     <Property Name="manv" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="makh" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="ngaylap" Type="DateTime" Precision="3" />
-    <Property Name="tongtien" Type="Decimal" Precision="19" Scale="4" />
     <Property Name="tthai" Type="Int32" />
     <NavigationProperty Name="cthoadons" Relationship="Self.fk_cthoadon_hoadon" FromRole="hoadon" ToRole="cthoadon" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
     <NavigationProperty Name="khachhang" Relationship="Self.fk_hoadon_khachhang" FromRole="hoadon" ToRole="khachhang" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
@@ -82,7 +81,6 @@
     <Property Name="cccd" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="gioitinh" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="tthai" Type="Int32" />
-    <NavigationProperty Name="bans" Relationship="Self.fk_ban_khachhang" FromRole="khachhang" ToRole="ban" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
     <NavigationProperty Name="hoadons" Relationship="Self.fk_hoadon_khachhang" FromRole="khachhang" ToRole="hoadon" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
   </EntityType>
   <EntityType Name="loaidouong">
@@ -92,7 +90,7 @@
     <Property Name="maloai" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="tenloai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="tthai" Type="Int32" />
-    <NavigationProperty Name="douongs" Relationship="Self.fk_douong_loaidouong" FromRole="loaidouong" ToRole="douong" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <NavigationProperty Name="douongs" Relationship="Self.fk_douong_loaidouong" FromRole="loaidouong" ToRole="douong" />
   </EntityType>
   <EntityType Name="nhanvien">
     <Key>
@@ -115,18 +113,19 @@
     <NavigationProperty Name="chamcongs" Relationship="Self.fk_chamcong_nhanvien" FromRole="nhanvien" ToRole="chamcong" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
     <NavigationProperty Name="hoadons" Relationship="Self.fk_hoadon_nhanvien" FromRole="nhanvien" ToRole="hoadon" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
   </EntityType>
-  <Association Name="fk_ban_khachhang">
-    <End Role="khachhang" Type="Self.khachhang" Multiplicity="0..1" />
-    <End Role="ban" Type="Self.ban" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="khachhang">
-        <PropertyRef Name="makh" />
-      </Principal>
-      <Dependent Role="ban">
-        <PropertyRef Name="makh" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
+  <EntityType Name="View_HoaDonTong">
+    <Key>
+      <PropertyRef Name="mahd" />
+    </Key>
+    <Property Name="mahd" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tennv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hoten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="dongia" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ngaylap" Type="DateTime" Precision="3" />
+    <Property Name="tendouong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="soluong" Type="Int32" />
+    <Property Name="thanhtien" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
   <Association Name="fk_nhanvien_calamviec">
     <End Role="calamviec" Type="Self.calamviec" Multiplicity="0..1" />
     <End Role="nhanvien" Type="Self.nhanvien" Multiplicity="*" />
@@ -221,10 +220,7 @@
     <EntitySet Name="khachhangs" EntityType="Self.khachhang" />
     <EntitySet Name="loaidouongs" EntityType="Self.loaidouong" />
     <EntitySet Name="nhanviens" EntityType="Self.nhanvien" />
-    <AssociationSet Name="fk_ban_khachhang" Association="Self.fk_ban_khachhang">
-      <End Role="khachhang" EntitySet="khachhangs" />
-      <End Role="ban" EntitySet="bans" />
-    </AssociationSet>
+    <EntitySet Name="View_HoaDonTong" EntityType="Self.View_HoaDonTong" />
     <AssociationSet Name="fk_nhanvien_calamviec" Association="Self.fk_nhanvien_calamviec">
       <End Role="calamviec" EntitySet="calamviecs" />
       <End Role="nhanvien" EntitySet="nhanviens" />

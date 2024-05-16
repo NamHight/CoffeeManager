@@ -16,9 +16,7 @@ namespace Model
     {
         public string maban { get; set; }
         public string tenban { get; set; }
-        public string makh { get; set; }
         public Nullable<int> tthai { get; set; }
-    
-        public virtual khachhang khachhang { private get; set; }
+        public Nullable<int> controng { get; set; }
     }
 }

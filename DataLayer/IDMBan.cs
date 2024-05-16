@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace DataLayer
 {
     public interface IDMBan
     {
+        List<ban> layDanhSachBan();
+        List<int?> layTrangThaiBan();
+        int themBan(ban x);
+        int suaBan(ban x);
+        int xoaBan(string x);
     }
 }

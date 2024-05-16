@@ -19,6 +19,7 @@ namespace Model
         public Nullable<System.DateTime> tgianbd { get; set; }
         public Nullable<System.DateTime> tgiankt { get; set; }
         public Nullable<int> ngaynghi { get; set; }
+        public Nullable<int> tthai { get; set; }
     
         public virtual nhanvien nhanvien { private get; set; }
     }

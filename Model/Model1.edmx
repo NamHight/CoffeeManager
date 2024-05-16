@@ -11,8 +11,8 @@
           </Key>
           <Property Name="maban" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="tenban" Type="nvarchar" MaxLength="20" />
-          <Property Name="makh" Type="nvarchar" MaxLength="20" />
           <Property Name="tthai" Type="int" />
+          <Property Name="controng" Type="int" />
         </EntityType>
         <EntityType Name="calamviec">
           <Key>
@@ -33,6 +33,7 @@
           <Property Name="tgianbd" Type="datetime" />
           <Property Name="tgiankt" Type="datetime" />
           <Property Name="ngaynghi" Type="int" />
+          <Property Name="tthai" Type="int" />
         </EntityType>
         <EntityType Name="cthoadon">
           <Key>
@@ -62,7 +63,6 @@
           <Property Name="manv" Type="nvarchar" MaxLength="20" />
           <Property Name="makh" Type="nvarchar" MaxLength="20" />
           <Property Name="ngaylap" Type="datetime" />
-          <Property Name="tongtien" Type="money" />
           <Property Name="tthai" Type="int" />
         </EntityType>
         <EntityType Name="khachhang">
@@ -104,18 +104,21 @@
           <Property Name="roller" Type="int" />
           <Property Name="tthai" Type="int" />
         </EntityType>
-        <Association Name="fk_ban_khachhang">
-          <End Role="khachhang" Type="Self.khachhang" Multiplicity="0..1" />
-          <End Role="ban" Type="Self.ban" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="khachhang">
-              <PropertyRef Name="makh" />
-            </Principal>
-            <Dependent Role="ban">
-              <PropertyRef Name="makh" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'QLCF.dbo.View_HoaDonTong' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="View_HoaDonTong">
+          <Key>
+            <PropertyRef Name="mahd" />
+          </Key>
+          <Property Name="mahd" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="tennv" Type="nvarchar" MaxLength="50" />
+          <Property Name="hoten" Type="nvarchar" MaxLength="50" />
+          <Property Name="dongia" Type="money" />
+          <Property Name="ngaylap" Type="datetime" />
+          <Property Name="tendouong" Type="nvarchar" MaxLength="50" />
+          <Property Name="soluong" Type="int" />
+          <Property Name="thanhtien" Type="money" />
+        </EntityType>
         <Association Name="fk_chamcong_nhanvien">
           <End Role="nhanvien" Type="Self.nhanvien" Multiplicity="0..1" />
           <End Role="chamcong" Type="Self.chamcong" Multiplicity="*" />
@@ -210,10 +213,18 @@
           <EntitySet Name="khachhang" EntityType="Self.khachhang" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="loaidouong" EntityType="Self.loaidouong" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="nhanvien" EntityType="Self.nhanvien" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="fk_ban_khachhang" Association="Self.fk_ban_khachhang">
-            <End Role="khachhang" EntitySet="khachhang" />
-            <End Role="ban" EntitySet="ban" />
-          </AssociationSet>
+          <EntitySet Name="View_HoaDonTong" EntityType="Self.View_HoaDonTong" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [View_HoaDonTong].[mahd] AS [mahd], 
+    [View_HoaDonTong].[tennv] AS [tennv], 
+    [View_HoaDonTong].[hoten] AS [hoten], 
+    [View_HoaDonTong].[dongia] AS [dongia], 
+    [View_HoaDonTong].[ngaylap] AS [ngaylap], 
+    [View_HoaDonTong].[tendouong] AS [tendouong], 
+    [View_HoaDonTong].[soluong] AS [soluong], 
+    [View_HoaDonTong].[thanhtien] AS [thanhtien]
+    FROM [dbo].[View_HoaDonTong] AS [View_HoaDonTong]</DefiningQuery>
+          </EntitySet>
           <AssociationSet Name="fk_chamcong_nhanvien" Association="Self.fk_chamcong_nhanvien">
             <End Role="nhanvien" EntitySet="nhanvien" />
             <End Role="chamcong" EntitySet="chamcong" />
@@ -253,9 +264,8 @@
           </Key>
           <Property Name="maban" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="tenban" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="makh" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="tthai" Type="Int32" />
-          <NavigationProperty Name="khachhang" Relationship="Self.fk_ban_khachhang" FromRole="ban" ToRole="khachhang" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+          <Property Name="controng" Type="Int32" />
         </EntityType>
         <EntityType Name="calamviec">
           <Key>
@@ -277,6 +287,7 @@
           <Property Name="tgianbd" Type="DateTime" Precision="3" />
           <Property Name="tgiankt" Type="DateTime" Precision="3" />
           <Property Name="ngaynghi" Type="Int32" />
+          <Property Name="tthai" Type="Int32" />
           <NavigationProperty Name="nhanvien" Relationship="Self.fk_chamcong_nhanvien" FromRole="chamcong" ToRole="nhanvien" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
         </EntityType>
         <EntityType Name="cthoadon">
@@ -311,7 +322,6 @@
           <Property Name="manv" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="makh" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="ngaylap" Type="DateTime" Precision="3" />
-          <Property Name="tongtien" Type="Decimal" Precision="19" Scale="4" />
           <Property Name="tthai" Type="Int32" />
           <NavigationProperty Name="cthoadons" Relationship="Self.fk_cthoadon_hoadon" FromRole="hoadon" ToRole="cthoadon" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
           <NavigationProperty Name="khachhang" Relationship="Self.fk_hoadon_khachhang" FromRole="hoadon" ToRole="khachhang" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
@@ -329,7 +339,6 @@
           <Property Name="cccd" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="gioitinh" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="tthai" Type="Int32" />
-          <NavigationProperty Name="bans" Relationship="Self.fk_ban_khachhang" FromRole="khachhang" ToRole="ban" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
           <NavigationProperty Name="hoadons" Relationship="Self.fk_hoadon_khachhang" FromRole="khachhang" ToRole="hoadon" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
         </EntityType>
         <EntityType Name="loaidouong">
@@ -339,7 +348,7 @@
           <Property Name="maloai" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="tenloai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="tthai" Type="Int32" />
-          <NavigationProperty Name="douongs" Relationship="Self.fk_douong_loaidouong" FromRole="loaidouong" ToRole="douong" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+          <NavigationProperty Name="douongs" Relationship="Self.fk_douong_loaidouong" FromRole="loaidouong" ToRole="douong" />
         </EntityType>
         <EntityType Name="nhanvien">
           <Key>
@@ -362,18 +371,19 @@
           <NavigationProperty Name="chamcongs" Relationship="Self.fk_chamcong_nhanvien" FromRole="nhanvien" ToRole="chamcong" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
           <NavigationProperty Name="hoadons" Relationship="Self.fk_hoadon_nhanvien" FromRole="nhanvien" ToRole="hoadon" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
         </EntityType>
-        <Association Name="fk_ban_khachhang">
-          <End Role="khachhang" Type="Self.khachhang" Multiplicity="0..1" />
-          <End Role="ban" Type="Self.ban" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="khachhang">
-              <PropertyRef Name="makh" />
-            </Principal>
-            <Dependent Role="ban">
-              <PropertyRef Name="makh" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
+        <EntityType Name="View_HoaDonTong">
+          <Key>
+            <PropertyRef Name="mahd" />
+          </Key>
+          <Property Name="mahd" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="tennv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="hoten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dongia" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ngaylap" Type="DateTime" Precision="3" />
+          <Property Name="tendouong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="soluong" Type="Int32" />
+          <Property Name="thanhtien" Type="Decimal" Precision="19" Scale="4" />
+        </EntityType>
         <Association Name="fk_nhanvien_calamviec">
           <End Role="calamviec" Type="Self.calamviec" Multiplicity="0..1" />
           <End Role="nhanvien" Type="Self.nhanvien" Multiplicity="*" />
@@ -468,10 +478,7 @@
           <EntitySet Name="khachhangs" EntityType="Self.khachhang" />
           <EntitySet Name="loaidouongs" EntityType="Self.loaidouong" />
           <EntitySet Name="nhanviens" EntityType="Self.nhanvien" />
-          <AssociationSet Name="fk_ban_khachhang" Association="Self.fk_ban_khachhang">
-            <End Role="khachhang" EntitySet="khachhangs" />
-            <End Role="ban" EntitySet="bans" />
-          </AssociationSet>
+          <EntitySet Name="View_HoaDonTong" EntityType="Self.View_HoaDonTong" />
           <AssociationSet Name="fk_nhanvien_calamviec" Association="Self.fk_nhanvien_calamviec">
             <End Role="calamviec" EntitySet="calamviecs" />
             <End Role="nhanvien" EntitySet="nhanviens" />
@@ -512,8 +519,8 @@
               <MappingFragment StoreEntitySet="ban">
                 <ScalarProperty Name="maban" ColumnName="maban" />
                 <ScalarProperty Name="tenban" ColumnName="tenban" />
-                <ScalarProperty Name="makh" ColumnName="makh" />
                 <ScalarProperty Name="tthai" ColumnName="tthai" />
+                <ScalarProperty Name="controng" ColumnName="controng" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -536,6 +543,7 @@
                 <ScalarProperty Name="tgianbd" ColumnName="tgianbd" />
                 <ScalarProperty Name="tgiankt" ColumnName="tgiankt" />
                 <ScalarProperty Name="ngaynghi" ColumnName="ngaynghi" />
+                <ScalarProperty Name="tthai" ColumnName="tthai" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -567,7 +575,6 @@
                 <ScalarProperty Name="manv" ColumnName="manv" />
                 <ScalarProperty Name="makh" ColumnName="makh" />
                 <ScalarProperty Name="ngaylap" ColumnName="ngaylap" />
-                <ScalarProperty Name="tongtien" ColumnName="tongtien" />
                 <ScalarProperty Name="tthai" ColumnName="tthai" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -611,6 +618,20 @@
                 <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
                 <ScalarProperty Name="roller" ColumnName="roller" />
                 <ScalarProperty Name="tthai" ColumnName="tthai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="View_HoaDonTong">
+            <EntityTypeMapping TypeName="QLCFModel.View_HoaDonTong">
+              <MappingFragment StoreEntitySet="View_HoaDonTong">
+                <ScalarProperty Name="mahd" ColumnName="mahd" />
+                <ScalarProperty Name="tennv" ColumnName="tennv" />
+                <ScalarProperty Name="hoten" ColumnName="hoten" />
+                <ScalarProperty Name="dongia" ColumnName="dongia" />
+                <ScalarProperty Name="ngaylap" ColumnName="ngaylap" />
+                <ScalarProperty Name="tendouong" ColumnName="tendouong" />
+                <ScalarProperty Name="soluong" ColumnName="soluong" />
+                <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

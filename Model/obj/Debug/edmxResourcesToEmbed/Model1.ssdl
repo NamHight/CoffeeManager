@@ -6,8 +6,8 @@
     </Key>
     <Property Name="maban" Type="nvarchar" MaxLength="20" Nullable="false" />
     <Property Name="tenban" Type="nvarchar" MaxLength="20" />
-    <Property Name="makh" Type="nvarchar" MaxLength="20" />
     <Property Name="tthai" Type="int" />
+    <Property Name="controng" Type="int" />
   </EntityType>
   <EntityType Name="calamviec">
     <Key>
@@ -28,6 +28,7 @@
     <Property Name="tgianbd" Type="datetime" />
     <Property Name="tgiankt" Type="datetime" />
     <Property Name="ngaynghi" Type="int" />
+    <Property Name="tthai" Type="int" />
   </EntityType>
   <EntityType Name="cthoadon">
     <Key>
@@ -57,7 +58,6 @@
     <Property Name="manv" Type="nvarchar" MaxLength="20" />
     <Property Name="makh" Type="nvarchar" MaxLength="20" />
     <Property Name="ngaylap" Type="datetime" />
-    <Property Name="tongtien" Type="money" />
     <Property Name="tthai" Type="int" />
   </EntityType>
   <EntityType Name="khachhang">
@@ -99,18 +99,21 @@
     <Property Name="roller" Type="int" />
     <Property Name="tthai" Type="int" />
   </EntityType>
-  <Association Name="fk_ban_khachhang">
-    <End Role="khachhang" Type="Self.khachhang" Multiplicity="0..1" />
-    <End Role="ban" Type="Self.ban" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="khachhang">
-        <PropertyRef Name="makh" />
-      </Principal>
-      <Dependent Role="ban">
-        <PropertyRef Name="makh" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QLCF.dbo.View_HoaDonTong' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="View_HoaDonTong">
+    <Key>
+      <PropertyRef Name="mahd" />
+    </Key>
+    <Property Name="mahd" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="tennv" Type="nvarchar" MaxLength="50" />
+    <Property Name="hoten" Type="nvarchar" MaxLength="50" />
+    <Property Name="dongia" Type="money" />
+    <Property Name="ngaylap" Type="datetime" />
+    <Property Name="tendouong" Type="nvarchar" MaxLength="50" />
+    <Property Name="soluong" Type="int" />
+    <Property Name="thanhtien" Type="money" />
+  </EntityType>
   <Association Name="fk_chamcong_nhanvien">
     <End Role="nhanvien" Type="Self.nhanvien" Multiplicity="0..1" />
     <End Role="chamcong" Type="Self.chamcong" Multiplicity="*" />
@@ -205,10 +208,18 @@
     <EntitySet Name="khachhang" EntityType="Self.khachhang" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="loaidouong" EntityType="Self.loaidouong" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="nhanvien" EntityType="Self.nhanvien" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="fk_ban_khachhang" Association="Self.fk_ban_khachhang">
-      <End Role="khachhang" EntitySet="khachhang" />
-      <End Role="ban" EntitySet="ban" />
-    </AssociationSet>
+    <EntitySet Name="View_HoaDonTong" EntityType="Self.View_HoaDonTong" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [View_HoaDonTong].[mahd] AS [mahd], 
+    [View_HoaDonTong].[tennv] AS [tennv], 
+    [View_HoaDonTong].[hoten] AS [hoten], 
+    [View_HoaDonTong].[dongia] AS [dongia], 
+    [View_HoaDonTong].[ngaylap] AS [ngaylap], 
+    [View_HoaDonTong].[tendouong] AS [tendouong], 
+    [View_HoaDonTong].[soluong] AS [soluong], 
+    [View_HoaDonTong].[thanhtien] AS [thanhtien]
+    FROM [dbo].[View_HoaDonTong] AS [View_HoaDonTong]</DefiningQuery>
+    </EntitySet>
     <AssociationSet Name="fk_chamcong_nhanvien" Association="Self.fk_chamcong_nhanvien">
       <End Role="nhanvien" EntitySet="nhanvien" />
       <End Role="chamcong" EntitySet="chamcong" />

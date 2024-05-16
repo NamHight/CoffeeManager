@@ -14,3 +14,51 @@ D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\BusinessLayer\obj\Debu
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\DataLayer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\Model.dll
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\Model.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\Model.dll.config
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\DataLayer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\Model.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\Model.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\Model.dll.config
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\DataLayer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\Model.dll
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\Model.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\Model.dll.config
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\BusinessLayer\obj\Debug\BusinessLayer.pdb

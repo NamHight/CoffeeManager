@@ -1,22 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\",
+  "WorkspaceRootPath": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BC260A3-05B3-4E6A-8CF2-27A30ACC43CB}|BusinessLayer\\BusinessLayer.csproj|d:\\study\\winform\\doan\\coffeemanager\\coffeentnstoremanager\\businesslayer\\xulydmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC260A3-05B3-4E6A-8CF2-27A30ACC43CB}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\xulydmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A9262FF-0033-4E38-9D07-A2B0B1894B6C}|DataLayer\\DataLayer.csproj|D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\datalayer\\dmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A9262FF-0033-4E38-9D07-A2B0B1894B6C}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\dmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\coffeentnstoremanager\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|d:\\study\\winform\\doan3\\coffeemanager\\coffeentnstoremanager\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\coffeentnstoremanager\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\homeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\homeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\homeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\homeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\douong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\douong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\chamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\chamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|D:\\Study\\Winform\\DoAn3\\CoffeeManager\\coffeentnstoremanager\\catruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1976C05F-46DB-48B5-B710-EDED5D38D136}|CoffeeNTNStoreManager\\CoffeeNTNStoreManager.csproj|solutionrelative:coffeentnstoremanager\\catruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +70,194 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\CoffeeNTNStoreManager\\Employee.cs",
-              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\Employee.cs",
-              "ToolTip": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\CoffeeNTNStoreManager\\Employee.cs",
-              "RelativeToolTip": "CoffeeNTNStoreManager\\Employee.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowAsAAAAfAAAA",
+              "DocumentIndex": 11,
+              "Title": "Table.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Table.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\Table.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Table.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\Table.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:17:58.559Z",
+              "WhenOpened": "2024-05-16T09:20:37.046Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\CoffeeNTNStoreManager\\Employee.cs",
-              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\Employee.cs",
-              "ToolTip": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\CoffeeNTNStoreManager\\Employee.cs [Design]",
-              "RelativeToolTip": "CoffeeNTNStoreManager\\Employee.cs [Design]",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Login.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\Login.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Login.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:17:27.697Z",
+              "WhenOpened": "2024-05-16T09:20:35.893Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DMNhanVien.cs",
-              "DocumentMoniker": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\DataLayer\\DMNhanVien.cs",
-              "RelativeDocumentMoniker": "DataLayer\\DMNhanVien.cs",
-              "ToolTip": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\DataLayer\\DMNhanVien.cs",
-              "RelativeToolTip": "DataLayer\\DMNhanVien.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwFEAAAAoAAAA",
+              "DocumentIndex": 8,
+              "Title": "KhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\KhachHang.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\KhachHang.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\KhachHang.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\KhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:10:59.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T09:20:34.838Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeEmployee.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeEmployee.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\HomeEmployee.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeEmployee.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\HomeEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:34.13Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "XuLyDMNhanVien.cs",
-              "DocumentMoniker": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\BusinessLayer\\XuLyDMNhanVien.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\XuLyDMNhanVien.cs",
-              "ToolTip": "D:\\Study\\Winform\\DoAn\\CoffeeManager\\CoffeeNTNStoreManager\\BusinessLayer\\XuLyDMNhanVien.cs",
-              "RelativeToolTip": "BusinessLayer\\XuLyDMNhanVien.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwA0AAAAfAAAA",
+              "Title": "HomeAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeAdmin.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\HomeAdmin.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeAdmin.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\HomeAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:12:52.838Z",
+              "WhenOpened": "2024-05-16T09:20:33.184Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HoaDon.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\HoaDon.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HoaDon.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\HoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:32.252Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Employee.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\Employee.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Employee.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\Employee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:31.336Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DoUong.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\DoUong.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\DoUong.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\DoUong.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\DoUong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:30.25Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChamCong.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\ChamCong.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\ChamCong.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\ChamCong.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\ChamCong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:29.413Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CaTruc.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\CaTruc.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\CaTruc.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\CaTruc.cs [Design]",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\CaTruc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:28.419Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HoaDon.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\HoaDon.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HoaDon.cs",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\HoaDon.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAADgvywAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:24:11.931Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeAdmin.cs",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeAdmin.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\HomeAdmin.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeAdmin.cs",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\HomeAdmin.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAlwB4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:24:00.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeEmployee.cs",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeEmployee.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\HomeEmployee.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\HomeEmployee.cs",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\HomeEmployee.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIAzwCMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:22:13.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\KhachHang.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\KhachHang.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\KhachHang.cs",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\KhachHang.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAApwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:21:59.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Login.cs",
+              "RelativeDocumentMoniker": "CoffeeNTNStoreManager\\Login.cs",
+              "ToolTip": "D:\\Study\\Winform\\DoAn3\\CoffeeManager\\CoffeeNTNStoreManager\\Login.cs",
+              "RelativeToolTip": "CoffeeNTNStoreManager\\Login.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADgvzQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:21:24.848Z"
             }
           ]
         }

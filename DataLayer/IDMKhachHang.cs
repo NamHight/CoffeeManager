@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,9 @@ namespace DataLayer
 {
     public interface IDMKhachHang
     {
-
+        List<khachhang> layDanhSachKhachHang(); 
+        int themKhachHang(khachhang x);
+        int suaKhachHang(khachhang x);
+        int xoaKhachHang(string x);
     }
 }

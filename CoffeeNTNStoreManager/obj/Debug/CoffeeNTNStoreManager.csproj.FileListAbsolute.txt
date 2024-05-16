@@ -48,3 +48,96 @@ D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\CoffeeNTNStoreManager\
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNT.B2AAFB87.Up2Date
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.exe
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.exe.config
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.exe
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\BusinessLayer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.dll
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.dll
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\DataLayer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\BusinessLayer.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.dll.config
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.xml
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.AssemblyReference.cache
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HoaDon.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.CaTruc.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Employee.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HomeAdmin.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HomeEmployee.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.KhachHang.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Login.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.DoUong.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Properties.Resources.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.ChamCong.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Table.resources
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.GenerateResource.cache
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.CoreCompileInputs.cache
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNT.B2AAFB87.Up2Date
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.exe
+D:\Study\Winform\DoAn2\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.exe.config
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.exe
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\BusinessLayer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\DataLayer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\BusinessLayer.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.dll.config
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.xml
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\DataLayer.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.AssemblyReference.cache
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HoaDon.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.CaTruc.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Employee.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HomeAdmin.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HomeEmployee.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.KhachHang.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Login.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.DoUong.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Properties.Resources.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.ChamCong.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Table.resources
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.GenerateResource.cache
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.CoreCompileInputs.cache
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNT.B2AAFB87.Up2Date
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.exe
+D:\Study\HK4\DOAN C#\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.exe.config
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.exe
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\CoffeeNTNStoreManager.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\BusinessLayer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.dll
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.dll
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\DataLayer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\BusinessLayer.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\Model.dll.config
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.xml
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\bin\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.AssemblyReference.cache
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HoaDon.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.CaTruc.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Employee.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HomeAdmin.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.HomeEmployee.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.KhachHang.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Login.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.DoUong.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Properties.Resources.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.ChamCong.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.Table.resources
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.GenerateResource.cache
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.csproj.CoreCompileInputs.cache
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNT.B2AAFB87.Up2Date
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.exe
+D:\Study\Winform\DoAn3\CoffeeManager\CoffeeNTNStoreManager\obj\Debug\CoffeeNTNStoreManager.pdb

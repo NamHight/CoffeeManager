@@ -6,8 +6,8 @@
         <MappingFragment StoreEntitySet="ban">
           <ScalarProperty Name="maban" ColumnName="maban" />
           <ScalarProperty Name="tenban" ColumnName="tenban" />
-          <ScalarProperty Name="makh" ColumnName="makh" />
           <ScalarProperty Name="tthai" ColumnName="tthai" />
+          <ScalarProperty Name="controng" ColumnName="controng" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -30,6 +30,7 @@
           <ScalarProperty Name="tgianbd" ColumnName="tgianbd" />
           <ScalarProperty Name="tgiankt" ColumnName="tgiankt" />
           <ScalarProperty Name="ngaynghi" ColumnName="ngaynghi" />
+          <ScalarProperty Name="tthai" ColumnName="tthai" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -61,7 +62,6 @@
           <ScalarProperty Name="manv" ColumnName="manv" />
           <ScalarProperty Name="makh" ColumnName="makh" />
           <ScalarProperty Name="ngaylap" ColumnName="ngaylap" />
-          <ScalarProperty Name="tongtien" ColumnName="tongtien" />
           <ScalarProperty Name="tthai" ColumnName="tthai" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -105,6 +105,20 @@
           <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
           <ScalarProperty Name="roller" ColumnName="roller" />
           <ScalarProperty Name="tthai" ColumnName="tthai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_HoaDonTong">
+      <EntityTypeMapping TypeName="QLCFModel.View_HoaDonTong">
+        <MappingFragment StoreEntitySet="View_HoaDonTong">
+          <ScalarProperty Name="mahd" ColumnName="mahd" />
+          <ScalarProperty Name="tennv" ColumnName="tennv" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="dongia" ColumnName="dongia" />
+          <ScalarProperty Name="ngaylap" ColumnName="ngaylap" />
+          <ScalarProperty Name="tendouong" ColumnName="tendouong" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -12,3 +12,45 @@ D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\DataLayer\obj\Debug\Da
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\DataLayer\obj\Debug\DataLayer.dll
 D:\Study\Winform\DoAn\CoffeeManager\CoffeeNTNStoreManager\DataLayer\obj\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\DataLayer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\EntityFramework.dll
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\Model.dll
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\Model.pdb
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\Model.dll.config
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\EntityFramework.xml
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\obj\Debug\DataLayer.dll
+D:\Study\Winform\DoAn2\CoffeeManager\DataLayer\obj\Debug\DataLayer.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\DataLayer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\DataLayer.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\EntityFramework.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\Model.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\Model.pdb
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\Model.dll.config
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\EntityFramework.xml
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\obj\Debug\DataLayer.dll
+D:\Study\HK4\DOAN C#\CoffeeManager\DataLayer\obj\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\DataLayer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\DataLayer.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\EntityFramework.dll
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\Model.dll
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\Model.pdb
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\Model.dll.config
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\EntityFramework.xml
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\obj\Debug\DataLayer.dll
+D:\Study\Winform\DoAn3\CoffeeManager\DataLayer\obj\Debug\DataLayer.pdb

@@ -53,6 +53,7 @@
     <Compile Include="XuLyDMDoUong.cs" />
     <Compile Include="XuLyDMHoaDon.cs" />
     <Compile Include="XuLyDMKhachHang.cs" />
+    <Compile Include="XuLyDMLogin.cs" />
     <Compile Include="XuLyDMNhanVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,7 +63,7 @@
       <Name>DataLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{947200f0-ac89-44f1-9958-5d969a8ca378}</Project>
+      <Project>{bbbbd7f2-5bde-4b81-a0d5-40b67b6501c3}</Project>
       <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
